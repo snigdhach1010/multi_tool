@@ -5,7 +5,7 @@ class LLMInteractionHandler:
         # Initialize the Gemini model with LangChain's ChatGoogleGenerativeAI
         self.llm = ChatGoogleGenerativeAI(
             model=llm_model,
-            google_api_key='AIzaSyB1mH0-1cxky2gFbWfjoqZr3ZrE45sHR1A',
+            google_api_key='your-google-api-key-here',
             temperature=0.4,
             max_tokens=None,
         )

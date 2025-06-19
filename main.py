@@ -4,7 +4,7 @@ from llm_interaction import LLMInteractionHandler
 
 if __name__ == "__main__":
     # Replace with your actual Google API key
-    google_api_key = "AIzaSyAgjLyrSxMZE6kehsl589X0GOQByfRf0QI"
+    google_api_key = "your-google-api-key-here"
     
     agent = LLMInteractionHandler(google_api_key)
 
